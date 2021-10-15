@@ -1,0 +1,62 @@
+/*fondos*/
+.fondo_verde{
+    background-color:rgb(26, 188, 156);
+}
+
+.fondo_rojo{
+    background-color: red;
+}
+.fondo_aqua{
+    background-color: aquamarine;
+}
+.fondo_azul{
+    background-color: cornflowerblue;
+}
+.fondo_blanco{
+    background-color: white;
+}
+.fondo_violeta{
+    background-color: violet;
+}
+.fondo_amarillo{
+    background-color: yellow;
+}
+.fondo_lima{
+    background-color: lime;
+}
+/*letras*/
+.letras_color_blanco{
+    color: white;
+}
+.letras_color_negro{
+    color: black;
+}
+.letras_tamaño_1{
+    font-size: 30px;
+}
+.letras_tamaño_2{
+    font-size: 60px;
+}
+/*bordes*/
+.borde_gris_1{
+    border: 10px outset grey;
+}
+.borde_gris_2{
+    border: 15px outset grey;
+}
+.borde_negro_1{
+    border: 5px solid black;
+}
+.borde_negro_2{
+    border: 2px solid black;
+}
+
+/*tamaño tabla*/
+.tabla_tamaño_1{
+    width: 100%;
+}
+/*margenes*/
+.margen_1{
+    margin: -5px;
+    padding: 5px;
+}
