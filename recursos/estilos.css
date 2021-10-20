@@ -1,0 +1,75 @@
+body{
+background-color: green;
+font-family: 'Franklin Gothic Medium';
+padding: 5%;
+}
+/* esto solo funciona si la imagen es sficientemente pequeña*/
+/*ul{
+    list-style-image: url(media/chems.jpg);
+}*/
+ul{
+    list-style: none;
+}
+li::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(media/chems.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: local(Gothic);
+}
+.fondo_blanco{
+    background-color: white;
+}
+
+.fondo_azul{
+    background-color: cornflowerblue;
+}
+.fondo_gris{
+    background-color: rgb(83, 81, 81);
+}
+
+.texto_1{
+    text-align: center ;
+    font-size: 50px;
+    color: rgb(94, 94, 94);
+}
+
+.texto_2{
+    text-align: left ;
+    font-size: 16px;
+    color: white;
+}
+.texto_3{
+    text-align: center ;
+    font-size: 16px;
+    color:black;
+}
+.texto_4{
+    text-align: center ;
+    font-size: 25px;
+    color: white;
+}
+.imagen_1{
+    width: 100 px;
+    height: 100 px;
+    align-items: center;
+}
+.borde_negro{
+    border: 20px solid black;
+    border-radius: 30px;
+}
+.borde_tabla{
+    border-collapse: collapse;
+}
+.td_1{
+    width: max-content;
+    border: 10px solid black;
+}
