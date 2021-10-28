@@ -1,7 +1,7 @@
 body{
 background-color: green;
 font-family: 'Franklin Gothic Medium';
-padding: 5%;
+padding: 5em;
 }
 /* esto solo funciona si la imagen es sficientemente pequeña*/
 /*ul{
@@ -22,8 +22,8 @@ li::before{
 }
 
 @font-face {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    src: local(Gothic);
+    font-family: fuentechida;
+    src: url(fuente/Little-Mermaid-por-Kustren.ttf);
 }
 .fondo_blanco{
     background-color: white;
@@ -36,9 +36,19 @@ li::before{
     background-color: rgb(83, 81, 81);
 }
 
+.fondoimagen {
+    background-image: url(media/cool-nebula-wallpaper-1.jpg);
+    width: 95%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    padding: 25px;
+}
 .texto_1{
     text-align: center ;
     font-size: 50px;
+    font-family: fuetechida;
     color: rgb(94, 94, 94);
 }
 
@@ -66,8 +76,14 @@ li::before{
     border: 20px solid black;
     border-radius: 30px;
 }
+
+.borde_blanco{
+    border: 2px solid white;
+}
+
 .borde_tabla{
     border-collapse: collapse;
+   
 }
 .td_1{
     width: max-content;
